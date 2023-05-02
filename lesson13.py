@@ -36,5 +36,14 @@ else:
 
 # Homework
 # Create a list by year from 1900 to 2023
+# Answer 1
 for year in range(1900, 2023):
     print(year)
+
+# Answer 2
+year = 1900
+while year <= 2023:
+    print(year)
+    year += 1
+else:
+    print('Done')
