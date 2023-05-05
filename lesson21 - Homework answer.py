@@ -1,6 +1,6 @@
 """
-Lesson 20 - Tuples
-04.05.2023 @ Kirill Kuznetsov
+Lesson 21 - Homework. Answer
+05.05.2023 @ Kirill Kuznetsov
 """
 
 # Homework
@@ -11,7 +11,8 @@ Lesson 20 - Tuples
 """
 words = ['мадам', 'топот', 'test', 'madam', 'word', 'шалаш', 'око', 'дружба']
 my_str = ['Око за око', 'А роза упала на лапу Азора', 'Около Миши молоко']
-a = 'Мадам'
+
 # Answer 1
 print([i for i in words if i[::-1].lower() == i.lower()])
+
 # Answer 2
