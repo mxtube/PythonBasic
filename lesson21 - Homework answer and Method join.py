@@ -25,6 +25,17 @@ for word in words:
 else:
     print(palindromes)
 
+
+# Answer 3 - by Antony
+
+print("Answer 1 - 3")
+
+my_str = ['Око за око', 'А роза упала на лапу Азора', 'Около Миши молоко']
+words = ['мадам', 'топот', 'test', 'madam', 'word', 'шалаш', 'око', 'дружба']
+
+print(*filter(lambda x: x[::-1] == x, words))
+print(*filter(lambda x: "".join(x.lower().split()) == "".join(x.lower().split())[::-1], my_str))
+
 # Answer 2 - 1
 print('Answer 2 - 1')
 palindromes2 = []

@@ -23,17 +23,15 @@ print('Welcome to Guess the Number', 'We guessed the number 🎲 from 1 to 100',
 hidden_number = random.randrange(1, 101)
 print('[DEBUG] Hidden number is', hidden_number)
 counter += 1
-user_answer = int(input('Enter your number: '))
 
 while True:
+    user_answer = int(input('Enter your number: '))
     if user_answer > hidden_number:
         counter += 1
         print(f'Your number is greater. You try {counter}')
-        user_answer = int(input('Enter your number: '))
     elif user_answer < hidden_number:
         counter += 1
         print('Your number is less, you. You try: %s' % counter)
-        user_answer = int(input('Enter your number: '))
     elif user_answer == hidden_number:
         print('You win. You try: %s' % counter)
         break
