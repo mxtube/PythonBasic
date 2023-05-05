@@ -4,7 +4,7 @@ Lesson 14 - Lists
 """
 
 # Example 1
-l1 = [1, 2, 3, 'hello', ['test', 10], 'world', True]
+
 print(l1)
 
 # Example 2
