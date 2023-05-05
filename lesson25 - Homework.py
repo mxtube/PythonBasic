@@ -26,16 +26,13 @@ counter += 1
 
 while True:
     user_answer = int(input('Enter your number: '))
+    counter += 1
     if user_answer > hidden_number:
-        counter += 1
         print(f'Your number is greater. You try {counter}')
     elif user_answer < hidden_number:
-        counter += 1
         print('Your number is less, you. You try: %s' % counter)
     elif user_answer == hidden_number:
         print('You win. You try: %s' % counter)
         break
     else:
         print('error')
-
-# Homework - Answer
