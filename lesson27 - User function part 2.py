@@ -18,7 +18,7 @@ print(get_sum(1, 2))
 
 # Example 2
 # *arg - position (tuples)
-# **kwarg - dictionary
+# **kwarg - optional dictionary
 
 
 def get_addition(*args):
@@ -43,3 +43,4 @@ def f(a, k, *args, **kwargs):
 
 
 f(1, 2, 3, 4.0, b=5, c='re')
+f(1, 2)
