@@ -1,5 +1,5 @@
 """
-Lesson 32 - OOP
+Lesson 36 - OOP
 10.05.2023 @ Kirill Kuznetsov
 """
 
