@@ -7,7 +7,6 @@ import os
 import libs
 import random as r
 from random import shuffle
-from sys import *
 
 # Example 1 - Get CWD (Current working directory)
 print(os.getcwd())
